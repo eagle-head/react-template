@@ -1,0 +1,12 @@
+{
+  "cSpell.words": [
+    "cssnano",
+    "tailwindcss"
+  ],
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "editor.rulers": [
+    120
+  ]
+}
