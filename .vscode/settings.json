@@ -1,11 +1,13 @@
 {
   "cSpell.words": [
     "cssnano",
+    "gifsicle",
+    "mozjpeg",
+    "optipng",
+    "pngquant",
+    "svgr",
     "tailwindcss"
   ],
-  "files.associations": {
-    "*.css": "tailwindcss"
-  },
   "editor.rulers": [
     120
   ]

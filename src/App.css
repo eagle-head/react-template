@@ -1,0 +1,14 @@
+/* Exemplo de como usar uma imagem no CSS */
+.background-image {
+  background-image: url("./assets/images/reactjs.jpeg");
+  height: 200px;
+  width: 200px;
+  background-size: cover;
+}
+
+/* Exemplo de uso de SVG via CSS */
+.example-svg-class {
+  fill: blue;
+  width: 50px;
+  height: 50px;
+}

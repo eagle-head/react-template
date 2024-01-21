@@ -1,6 +1,6 @@
 Analisando a configuração atual do Webpack em seu projeto, aqui estão algumas otimizações e melhorias que ainda podem ser implementadas com base na lista fornecida:
 
-### 1. Compressão de Assets
+### 1. Compressão de Assets 🚧
 
 - **Compressão de Arquivos com Brotli ou Gzip**:
   - Não há indicação de compressão de arquivos.
@@ -44,15 +44,15 @@ Analisando a configuração atual do Webpack em seu projeto, aqui estão algumas
 
 Responder a estas perguntas ajudará a configurar o `compression-webpack-plugin` de forma otimizada para suas necessidades específicas, equilibrando o tamanho dos arquivos, compatibilidade de browser, performance do servidor, e a experiência do usuário final.
 
-### 2. Otimização de Imagens
+### 2. Otimização de Imagens ✅
 
 - **Minificação de Imagens**: Não há configuração para otimização de imagens. Considere adicionar `image-webpack-loader` ou similar para otimizar automaticamente as imagens.
 
-### 3. Análise de Bundle
+### 3. Análise de Bundle 🚧
 
 - **Webpack Bundle Analyzer**: Adicione `webpack-bundle-analyzer` para visualizar e analisar o tamanho dos seus pacotes e identificar oportunidades de otimização.
 
-### 4. Hashes de Conteúdo
+### 4. Hashes de Conteúdo ✅
 
 - **Caching Eficiente**: Atualmente, o nome do arquivo de saída (`bundle.js`) não inclui um hash de conteúdo. Você pode modificar para `[name].[contenthash].js` para melhorar o cacheamento no lado do cliente.
 
