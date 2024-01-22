@@ -56,7 +56,7 @@ Responder a estas perguntas ajudará a configurar o `compression-webpack-plugin`
 
 - **Caching Eficiente**: Atualmente, o nome do arquivo de saída (`bundle.js`) não inclui um hash de conteúdo. Você pode modificar para `[name].[contenthash].js` para melhorar o cacheamento no lado do cliente.
 
-### 5. Preload e Prefetch
+### 5. Preload e Prefetch ❌
 
 - **Tags de Preload e Prefetch**: Não há configuração para preload ou prefetch de recursos. Você pode adicionar essas tags manualmente no HTML ou explorar plugins do Webpack que automatizam isso.
 

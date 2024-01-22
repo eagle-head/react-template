@@ -1,6 +1,5 @@
 // webpack.common.js
 const HtmlWebpackPlugin = require("html-webpack-plugin");
-const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 
 module.exports = {
   entry: "./src/index.tsx",
@@ -29,6 +28,5 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: "./public/index.html",
     }),
-    new CleanWebpackPlugin(),
   ],
 };
