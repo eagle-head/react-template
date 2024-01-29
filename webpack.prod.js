@@ -4,7 +4,6 @@ const path = require("path");
 const common = require("./webpack.common.js");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const TerserPlugin = require("terser-webpack-plugin");
-const CompressionWebpackPlugin = require("compression-webpack-plugin");
 
 const production = {
   mode: "production",
@@ -58,9 +57,6 @@ const production = {
   plugins: [
     new MiniCssExtractPlugin({
       filename: "css/[name].[contenthash].css",
-    }),
-    new CompressionWebpackPlugin({
-      algorithm: "gzip",
     }),
   ],
 };
